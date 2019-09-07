@@ -13,6 +13,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Frontend\Helper;
 
 
 Route::get('/', function () {
@@ -21,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/contact', function (Request $request) {
 
-    $request->session()->flash('contact_message', $request->input('mess'));
+    $request->session()->flash('contact_message', Helper::getMessage($request->input('mess')));
 
     return view('contact');
 
@@ -60,3 +61,4 @@ Route::prefix('admin')->group(function () {
 
 });
 
+//Auth::routes();

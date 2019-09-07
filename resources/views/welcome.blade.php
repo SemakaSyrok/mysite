@@ -37,8 +37,11 @@
             My high quality team creating individual websites
         </h4>
         <h4 class="px-5 pt-3 text-center">
-            Our websites don't modern <strong>or</strong> speed <strong>or</strong> beautiful <br>
+            Our websites don't modern <strong>or</strong> speed <strong>or</strong> beautiful, <br>
             They are modern <strong> and</strong> speed<strong> and</strong> beautiful
+        </h4>
+        <h4 class="px-5 pt-3 text-center">
+            We also offer some ready projects
         </h4>
         <h4 class="px-5 pt-3 text-center">
             If you want to order website or another programmer service,
