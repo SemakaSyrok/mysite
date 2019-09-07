@@ -1,0 +1,63 @@
+@extends('layouts.app')
+
+@section('content')
+
+    <div class="container pt-2">
+
+        <div class="skill  my-3 p-2 bg-white shadow ">
+            <h4>
+                <span >PHP</span>
+            </h4>
+            <div class="subskills">
+                <span class="  m-1">YII2</span>
+                <span class="  m-1">Laravel</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-2 bg-white shadow">
+            <h4>
+                <span class="">JS</span>
+            </h4>
+            <div class="subskills">
+                <span class="  m-1">jQuery</span>
+                <span class="  m-1">Vue</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-2 bg-white shadow">
+            <h4>
+                <span class="">DATABASES</span>
+            </h4>
+            <div class="subskills">
+                <span class="  m-1">MySQL</span>
+                <span class="  m-1">PostgresSQL</span>
+                <span class=" ">MongoDB</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-2 bg-white shadow">
+            <h4>
+                <span class="">CSS</span>
+            </h4>
+            <div class="subskills">
+                <span class="  m-1">Bootstrap</span>
+                <span class="  m-1">Materialize</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-2 bg-white shadow">
+            <h4>
+                <span class="">Linux</span>
+            </h4>
+            <div class="subskills">
+                <span class="   mx-1">Ubuntu</span>
+                <span class="   mx-1">Debian</span>
+                <span class="   mx-1">Amazon AWS</span>
+                <span class="   mx-1">Digital Ocean</span>
+                <span class="   mx-1">Heroku</span>
+            </div>
+        </div>
+
+    </div>
+
+@endsection
