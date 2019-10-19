@@ -16,49 +16,41 @@ use Illuminate\Support\Facades\Route;
 use App\Frontend\Helper;
 
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('main');
 
-Route::get('/contact', function (Request $request) {
-
-    $request->session()->flash('contact_message', Helper::getMessage($request->input('mess')));
-
-    return view('contact');
-
-})->name('contact');
-
-Route::get('/skills', function () {
-    return view('skills');
-})->name('skills');
-
-Route::get('/projects', function () {
-    return view('projects');
-})->name('projects');
+Route::get('/', 'SiteController@index')->name('main');
+Route::get('/contact', 'SiteController@contact')->name('contact');
+Route::get('/skills', 'SiteController@skills')->name('skills');
+Route::get('/projects', 'SiteController@projects')->name('projects');
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/message', 'StoreMessage')->name('message');
 
+Route::get('/send', 'MailController@send');
 
+Route::get('mail', function() {
+   return view('mail');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::prefix('admin')->group(function () {
-
-
-    Route::get('logout', 'Auth\LogoutController')->name('logout');
-    Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
-    Route::post('login', 'Auth\LoginController@login');
-    Route::post('login', 'Auth\LoginController@login');
-
-
-    Route::group(['middleware' => ['web', 'auth']], function () {
-
-        Route::resources(['messages' => 'MessageController']);
-
-    });
-
-
+Route::get('/job', function() {
 
 });
 
-//Auth::routes();
+
+
+
+
+Route::group(['prefix' => 'admin'], function () {
+
+    Voyager::routes();
+
+    Route::get('/group-of-clients/send-mails/{id}', 'MailController@sendGroups')
+        ->name('voyager.group-of-clients.send-mails');
+
+});
+
+
+Route::group(['middleware' => 'auth', 'prefix' => 'api'], function () {
+
+    Route::get('/client-groups/{id}', 'ClientGroupsController@view');
+
+});

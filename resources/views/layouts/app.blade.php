@@ -72,14 +72,7 @@
                                     @endroute">Contact</a>
                         </li>
                     @endguest
-                    @auth
-                        <li class="nav-item">
-                            <a href="{{ route('logout') }}" class="nav-link text-inherit">Logout</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('messages.index')  }}" class="nav-link text-inherit">Messages</a>
-                        </li>
-                    @endauth
+
                 </ul>
 
                 <!-- Right Side Of Navbar -->
