@@ -17,11 +17,11 @@
 
             <div class="position-absolute block d-flex justify-content-center align-items-center p-1"
              id="left-arrow">
-                <img src="https://simon-svirkov.com/public/images/arrow-l.png" class="img-fluid p-1" alt="" @click="previous()">
+                <img src="images/arrow-l.png" class="img-fluid p-1" alt="" @click="previous()">
             </div>
             <div class="position-absolute block d-flex justify-content-center align-items-center p-1"
                  id="right-arrow">
-                <img src="https://simon-svirkov.com/public/images/arrow-r.png" class="img-fluid p-1" alt="" @click="next()">
+                <img src="images/arrow-r.png" class="img-fluid p-1" alt="" @click="next()">
             </div>
 
             <div class="row my-3 py-4 px-5">
@@ -92,7 +92,7 @@
         },
         computed: {
             image() {
-                return `https://simon-svirkov.com/public/images/wms${this.slide[this.curSlide].img}.png`;
+                return `images/wms${this.slide[this.curSlide].img}.png`;
             },
             text() {
                 return this.slide[this.curSlide].text;
