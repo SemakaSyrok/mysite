@@ -2,51 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Country.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Voyager/PosterTranslationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Poster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/PosterTranslation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_061146_create_countries_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_061510_create_posters_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_062142_create_poster_translations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/arrow-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/arrow-r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wms6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/browse.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/edit-add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/order.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/partials/actions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/read.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/TestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GroupOfClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GroupOfClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/SendMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/PotentialClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PotentialClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/voyager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/voyager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/site-css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/site-css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/offer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/offer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skills.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skills.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_135742_create_clients_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_135819_create_client_groups_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_140142_create_sended_emails_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_145652_create_fbk_for_client_groups.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_145736_create_fbk_for_sended_emails.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +204,7 @@
       <workItem from="1564119139140" duration="598000" />
       <workItem from="1571289620088" duration="44834000" />
       <workItem from="1571432785755" duration="20782000" />
-      <workItem from="1571639082609" duration="43487000" />
+      <workItem from="1571639082609" duration="45293000" />
     </task>
     <servers />
   </component>
