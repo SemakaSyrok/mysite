@@ -2,23 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/offer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/group-of-clients/browse.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/group-of-clients/read.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/profile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Voyager/PosterTranslationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Poster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/PosterTranslation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_061146_create_countries_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_061510_create_posters_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_22_062142_create_poster_translations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wms6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/browse.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/edit-add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/partials/actions.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/poster-translations/read.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vms.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/TestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GroupOfClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GroupOfClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/SendMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PotentialClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PotentialClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/voyager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/voyager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/site-css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/site-css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mail/offer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/offer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skills.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skills.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +59,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,7 +173,11 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1SJlVQm0Vp9iW4eqMXQTuPdEs88" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/vendor/voyager" />
@@ -148,13 +187,16 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager" />
+      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager\poster-translations" />
+      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\public\images" />
       <recent name="C:\Program Files\OSPanel\domains\profile\public\images" />
       <recent name="C:\Program Files\OSPanel\domains\profile\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
+      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,11 +211,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.ExampleTest.testBasicTest">
+    <configuration name="ExampleTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" method="testBasicTest" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,7 +242,8 @@
       <workItem from="1564049341394" duration="857000" />
       <workItem from="1564119139140" duration="598000" />
       <workItem from="1571289620088" duration="44834000" />
-      <workItem from="1571432785755" duration="19125000" />
+      <workItem from="1571432785755" duration="20782000" />
+      <workItem from="1571639082609" duration="43487000" />
     </task>
     <servers />
   </component>
@@ -214,5 +266,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

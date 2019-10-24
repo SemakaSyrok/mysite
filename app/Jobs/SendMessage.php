@@ -17,6 +17,7 @@ class SendMessage implements ShouldQueue
     public $mail;
     public $name;
     public $view;
+    public $tries = 3;
 
 
     /**

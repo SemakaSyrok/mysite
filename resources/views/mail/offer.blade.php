@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Offer</title>
 
     <style type="text/css">
         body {
@@ -79,7 +79,7 @@
             padding: 1px 20px 1px 20px;
             color: white;
             border-radius: 6px;
-            background: #00ff00;
+            background: #1e53ff;
             margin-left: 4px;
             margin-right: 4px;
             transition: .5s;
@@ -150,9 +150,13 @@
             You can try it here:
 
             <button class="tryit">
-                <a href="https://vms.simon-svirkov.com"> CLICK</a>
+                <a href="https://vms.simon-svirkov.com">CLICK</a>
             </button>
 
+        </p>
+
+        <p>
+            More info: <a href="https://simon-svirkov.com/vms">CLICK</a>
         </p>
 
         <p>

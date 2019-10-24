@@ -4,7 +4,7 @@
 
     <div class="container pt-2">
 
-        <div class="skill  my-3 p-2 bg-white shadow ">
+        <div class="skill  my-3 p-3 bg-white shadow ">
             <h4>
                 <span >PHP</span>
             </h4>
@@ -14,17 +14,29 @@
             </div>
         </div>
 
-        <div class="skill  my-3 p-2 bg-white shadow">
+        <div class="skill  my-3 p-3 bg-white shadow ">
+            <h4>
+                <span >CMS</span>
+            </h4>
+            <div class="subskills">
+                <span class="  m-1">Wordpress</span>
+                <span class="  m-1">Magento</span>
+                <span class="  m-1">OpenCart</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-3 bg-white shadow">
             <h4>
                 <span class="">JS</span>
             </h4>
             <div class="subskills">
                 <span class="  m-1">jQuery</span>
+                <span class="  m-1">React</span>
                 <span class="  m-1">Vue</span>
             </div>
         </div>
 
-        <div class="skill  my-3 p-2 bg-white shadow">
+        <div class="skill  my-3 p-3 bg-white shadow">
             <h4>
                 <span class="">DATABASES</span>
             </h4>
@@ -35,7 +47,7 @@
             </div>
         </div>
 
-        <div class="skill  my-3 p-2 bg-white shadow">
+        <div class="skill  my-3 p-3 bg-white shadow">
             <h4>
                 <span class="">CSS</span>
             </h4>
@@ -45,13 +57,21 @@
             </div>
         </div>
 
-        <div class="skill  my-3 p-2 bg-white shadow">
+        <div class="skill  my-3 p-3 bg-white shadow">
             <h4>
                 <span class="">Linux</span>
             </h4>
             <div class="subskills">
                 <span class="   mx-1">Ubuntu</span>
                 <span class="   mx-1">Debian</span>
+            </div>
+        </div>
+
+        <div class="skill  my-3 p-3 bg-white shadow">
+            <h4>
+                <span class="">Hosting</span>
+            </h4>
+            <div class="subskills">
                 <span class="   mx-1">Amazon AWS</span>
                 <span class="   mx-1">Digital Ocean</span>
                 <span class="   mx-1">Heroku</span>

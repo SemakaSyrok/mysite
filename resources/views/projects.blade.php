@@ -14,7 +14,7 @@
     <div class="container pt-1">
 
 
-        <div class="item card shadow bg-white p-3 my-2">
+        <div class="item  shadow bg-white p-3 my-3">
 
             <h3 class="mt-4">Video Management System</h3>
 
@@ -30,22 +30,26 @@
             </p>
 
             <div class="col-4 ">
-                <a href="{{ route('contact', ['mess' => 1])  }}" class="my-btn btn-order highlight-min my-shadow ">
-                    <span class="p-2">Try it</span>
+                <a href="{{ route('vms')  }}" class=" ">
+                    <button class="btn btn-outline-primary">More...</button>
                 </a>
             </div>
 
         </div>
 
-        <div class="item card shadow bg-white p-3 my-2">
+        <div class="item  shadow bg-white p-3 my-3">
             <h3 class="mt-4">E-commerce engine</h3>
             <p class="text-muted">Coming soon...</p>
         </div>
 
-        <div class="item card shadow bg-white p-3 my-2">
+        <div class="item  shadow bg-white p-3 my-3">
             <h3 class="mt-4">Hotel engine</h3>
             <p class="text-muted">Coming soon...</p>
+        </div>
 
+        <div class="item  shadow bg-white p-3 my-3">
+            <h3 class="mt-4">Education engine</h3>
+            <p class="text-muted">Coming soon...</p>
         </div>
 
 

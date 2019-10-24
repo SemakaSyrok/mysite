@@ -29,5 +29,10 @@ class SiteController extends Controller
         return view('projects');
     }
 
+    public function vms()
+    {
+        return view('vms');
+    }
+
 
 }
