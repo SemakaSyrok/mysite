@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_135742_create_clients_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_135819_create_client_groups_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_140142_create_sended_emails_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_145652_create_fbk_for_client_groups.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_18_145736_create_fbk_for_sended_emails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/VMS.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +200,7 @@
       <workItem from="1564119139140" duration="598000" />
       <workItem from="1571289620088" duration="44834000" />
       <workItem from="1571432785755" duration="20782000" />
-      <workItem from="1571639082609" duration="45293000" />
+      <workItem from="1571639082609" duration="46609000" />
     </task>
     <servers />
   </component>

@@ -1839,7 +1839,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   computed: {
     image: function image() {
-      return "public/images/wms".concat(this.slide[this.curSlide].img, ".png");
+      return "https://simon-svirkov.com/public/images/wms".concat(this.slide[this.curSlide].img, ".png");
     },
     text: function text() {
       return this.slide[this.curSlide].text;
@@ -38572,7 +38572,10 @@ var render = function() {
         [
           _c("img", {
             staticClass: "img-fluid p-1",
-            attrs: { src: "public/images/arrow-l.png", alt: "" },
+            attrs: {
+              src: "https://simon-svirkov.com/public/images/arrow-l.png",
+              alt: ""
+            },
             on: {
               click: function($event) {
                 return _vm.previous()
@@ -38592,7 +38595,10 @@ var render = function() {
         [
           _c("img", {
             staticClass: "img-fluid p-1",
-            attrs: { src: "public/images/arrow-r.png", alt: "" },
+            attrs: {
+              src: "https://simon-svirkov.com/public/images/arrow-r.png",
+              alt: ""
+            },
             on: {
               click: function($event) {
                 return _vm.next()
