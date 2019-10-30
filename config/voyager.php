@@ -150,7 +150,8 @@ return [
         ],
 
         'widgets' => [
-
+            'App\\Widgets\\Clients',
+            'App\\Widgets\\Messages',
         ],
 
     ],
