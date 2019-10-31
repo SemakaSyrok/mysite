@@ -117,7 +117,7 @@
     </header>
 
     <div class="main">
-        <p >
+        <p>
             I am writing to offer you a
             <span class="text-center highlight-big my-shadow"
                   style="word-break: unset">Video&nbsp;Management&nbsp;System</span> <br>
@@ -147,12 +147,13 @@
 
         <p>
             All our clients increased the number of customers thanks to the services provided by our system. <br>
-            You can try it here:
+            You can try it here:<a href="https://vms.simon-svirkov.com">CLICK</a>
+        </p>
 
-            <button class="tryit">
-                <a href="https://vms.simon-svirkov.com">CLICK</a>
-            </button>
-
+        <p>
+            Price for 2019: <strong>750$</strong>
+            <br>
+            Price for 2020: <strong>999$</strong>
         </p>
 
         <p>
