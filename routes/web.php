@@ -25,10 +25,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
 
 Route::post('/message', 'StoreMessage')->name('message');
-
-Route::get('/send', 'MailController@send');
-
-
 Route::group(['prefix' => 'admin'], function () {
 
     Voyager::routes();
