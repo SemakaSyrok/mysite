@@ -20,7 +20,7 @@
             I want to get you opportunity to test it.
         </p>
         <p>
-            I will deploy it in my server and provide you full access to it in 1 week
+            I will deploy it on my server and provide you full access to it on 1 week for
             <strong>absolutely free</strong>.
         </p>
         <p>
