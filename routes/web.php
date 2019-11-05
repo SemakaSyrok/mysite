@@ -23,6 +23,9 @@ Route::get('/skills', 'SiteController@skills')->name('skills');
 Route::get('/projects', 'SiteController@projects')->name('projects');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
+Route::get('/mail', function() {
+    return view('mail.text');
+});
 
 Route::post('/message', 'StoreMessage')->name('message');
 Route::group(['prefix' => 'admin'], function () {

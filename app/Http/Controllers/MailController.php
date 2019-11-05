@@ -19,4 +19,5 @@ class MailController extends Controller
 
         return redirect()->route('voyager.group-of-clients.index');
     }
+
 }
