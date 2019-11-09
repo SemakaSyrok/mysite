@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/t-rex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/dino.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,7 +221,8 @@
       <workItem from="1572412966443" duration="4941000" />
       <workItem from="1572498132109" duration="3689000" />
       <workItem from="1572674287337" duration="3101000" />
-      <workItem from="1572947362364" duration="6823000" />
+      <workItem from="1572947362364" duration="6960000" />
+      <workItem from="1573286297771" duration="3505000" />
     </task>
     <servers />
   </component>
