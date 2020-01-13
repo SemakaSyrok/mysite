@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/BadIp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/FilterIp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Sell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_29_141203_create_sells_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_08_061040_create_bad_ips_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/paypal-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/pay.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/pay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/buy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/profile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/VMS.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/site-css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/site-css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/pay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pay.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,16 +169,16 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
-      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\domains\mysite\public\images" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager\poster-translations" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\public\images" />
       <recent name="C:\Program Files\OSPanel\domains\profile\public\images" />
-      <recent name="C:\Program Files\OSPanel\domains\profile\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
+      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ExampleTest.testBasicTest">
@@ -264,7 +237,7 @@
       <workItem from="1577591191916" duration="5642000" />
       <workItem from="1578462248044" duration="4178000" />
       <workItem from="1578807078541" duration="832000" />
-      <workItem from="1578916065484" duration="1257000" />
+      <workItem from="1578916065484" duration="4495000" />
     </task>
     <servers />
   </component>

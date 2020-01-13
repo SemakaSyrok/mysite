@@ -4,40 +4,12 @@
         <div class="row">
             <div class="col-xs-10 col-md-8 col-lg-7 col-xl-6 d-block mx-auto mt-4 p-3 bg-white shadow">
                 <h3 class="mt-2">Get VMS source code</h3>
-                <br>
-                <p>Type email on witch i will send link to download the source</p>
-
-                <label for="email" class="text-muted">Email</label>
-                <input type="email" name="email" id="email" class="form-control" v-model="email" >
-                <input type="email" id="hidden-email" hidden>
-                <span class="text-danger mt-1" v-if="errorMessage" >{{ errorMessage }}</span>
-
-
-                <div class="row ">
-
-                    <div class="col-12 mt-3">
-                        <span v-if="!request" >
-                            <button
-                                v-if="!buy"
-                                @click="setUpEmail()"
-                                class="btn btn-outline-success  mx-auto"
-                                id="sendBTN"
-                                style="display: block"
-                            >Send</button>
-                        </span>
-                        <span v-else class="" >
-                            <img
-                                src="/images/preloader.gif"
-                                alt="preloader" class="mx-auto d-block"
-                                id="preloader"
-                                style="width: 40px;"
-                            >
-                        </span>
-                    </div>
-
-                    <div class="col-12 mt-2">
-
-                    </div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="8P4D5J5LPMV4E">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+                </form>
 
                     <div class="col-12 mt-4">
                         <div id="paypal-button" style="width: 200px; " class="d-block mx-auto"></div>

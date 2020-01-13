@@ -25,8 +25,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
 //Route::get('/vms/source', 'SiteController@source')->name('source');
 
-Route::get('pay', function () {
+Route::get('/vms/pay', function () {
     return view('pay');
+});
+Route::get('/vms/faq', function () {
+    return view('faq');
 });
 
 Route::get('/set-email', 'ApiController@setEmail')->name('set-email');
