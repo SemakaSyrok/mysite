@@ -21,5 +21,6 @@ class DatabaseSeeder extends Seeder
 //        $this->call(PermissionRoleTableSeeder::class);
 //        $this->call(RolesTableSeeder::class);
 //        \DB::table('permission_role')->delete();
+        $this->call(UserRolesTableSeeder::class);
     }
 }

@@ -291,6 +291,22 @@ class MenuItemsTableSeeder extends Seeder
             ),
             17 => 
             array (
+                'id' => 21,
+                'menu_id' => 1,
+                'title' => 'Bad Ips',
+                'url' => '',
+                'target' => '_self',
+                'icon_class' => 'voyager-dot-3',
+                'color' => NULL,
+                'parent_id' => NULL,
+                'order' => 14,
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+                'route' => 'voyager.bad-ips.index',
+                'parameters' => NULL,
+            ),
+            18 => 
+            array (
                 'id' => 20,
                 'menu_id' => 1,
                 'title' => 'Bad Ips',
@@ -301,8 +317,8 @@ class MenuItemsTableSeeder extends Seeder
                 'parent_id' => NULL,
                 'order' => 1,
                 'created_at' => '2020-01-08 06:13:14',
-                'updated_at' => '2020-01-13 16:11:13',
-                'route' => 'voyager.badips.index',
+                'updated_at' => '2020-01-13 16:37:55',
+                'route' => 'voyager.bad-ips.index',
                 'parameters' => 'null',
             ),
         ));

@@ -425,6 +425,46 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2019-11-02 10:28:56',
                 'updated_at' => '2019-11-02 10:28:56',
             ),
+            51 => 
+            array (
+                'id' => 62,
+                'key' => 'browse_bad_ips',
+                'table_name' => 'bad_ips',
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+            ),
+            52 => 
+            array (
+                'id' => 63,
+                'key' => 'read_bad_ips',
+                'table_name' => 'bad_ips',
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+            ),
+            53 => 
+            array (
+                'id' => 64,
+                'key' => 'edit_bad_ips',
+                'table_name' => 'bad_ips',
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+            ),
+            54 => 
+            array (
+                'id' => 65,
+                'key' => 'add_bad_ips',
+                'table_name' => 'bad_ips',
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+            ),
+            55 => 
+            array (
+                'id' => 66,
+                'key' => 'delete_bad_ips',
+                'table_name' => 'bad_ips',
+                'created_at' => '2020-01-13 16:36:50',
+                'updated_at' => '2020-01-13 16:36:50',
+            ),
         ));
         
         
