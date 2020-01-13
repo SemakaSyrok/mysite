@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/pay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/pay.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DataTypesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DataTypesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/VMS.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vms.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +242,7 @@
       <workItem from="1577591191916" duration="5642000" />
       <workItem from="1578462248044" duration="4178000" />
       <workItem from="1578807078541" duration="832000" />
-      <workItem from="1578916065484" duration="4495000" />
+      <workItem from="1578916065484" duration="6710000" />
     </task>
     <servers />
   </component>
@@ -265,13 +270,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="635" y="357" key="NewPhpFileDialog" timestamp="1578929947306">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="635" y="357" key="NewPhpFileDialog/62.0.1474.864@62.0.1474.864" timestamp="1578929947306" />
     <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1578916795227">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1578916795227" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1578472420239">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1578929353238">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1578472420239" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1578929353238" />
   </component>
 </project>

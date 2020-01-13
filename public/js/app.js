@@ -1784,7 +1784,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //ANIMATE WITH WATCH!!!!!!!!
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "v-vms",
-  props: ['link'],
+  props: ['link', 'buy'],
   data: function data() {
     return {
       contact: '',
@@ -1895,34 +1895,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -38793,9 +38765,9 @@ var render = function() {
                     "a",
                     {
                       staticClass: "my-btn btn-order highlight-btn my-shadow ",
-                      attrs: { href: _vm.link }
+                      attrs: { href: _vm.buy }
                     },
-                    [_vm._v("SOURCE CODE")]
+                    [_vm._v("BUY SOURCE")]
                   )
                 ]
               )
@@ -38847,115 +38819,79 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "col-xs-10 col-md-8 col-lg-7 col-xl-6 d-block mx-auto mt-4 p-3 bg-white shadow"
-        },
-        [
-          _c("h3", { staticClass: "mt-2" }, [_vm._v("Get VMS source code")]),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Type email on witch i will send link to download the source"
-            )
-          ]),
-          _vm._v(" "),
-          _c("label", { staticClass: "text-muted", attrs: { for: "email" } }, [
-            _vm._v("Email")
-          ]),
-          _vm._v(" "),
-          _c("input", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.email,
-                expression: "email"
-              }
-            ],
-            staticClass: "form-control",
-            attrs: { type: "email", name: "email", id: "email" },
-            domProps: { value: _vm.email },
-            on: {
-              input: function($event) {
-                if ($event.target.composing) {
-                  return
-                }
-                _vm.email = $event.target.value
-              }
-            }
-          }),
-          _vm._v(" "),
-          _c("input", {
-            attrs: { type: "email", id: "hidden-email", hidden: "" }
-          }),
-          _vm._v(" "),
-          _vm.errorMessage
-            ? _c("span", { staticClass: "text-danger mt-1" }, [
-                _vm._v(_vm._s(_vm.errorMessage))
-              ])
-            : _vm._e(),
-          _vm._v(" "),
-          _c("div", { staticClass: "row " }, [
-            _c("div", { staticClass: "col-12 mt-3" }, [
-              !_vm.request
-                ? _c("span", [
-                    !_vm.buy
-                      ? _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-outline-success  mx-auto",
-                            staticStyle: { display: "block" },
-                            attrs: { id: "sendBTN" },
-                            on: {
-                              click: function($event) {
-                                return _vm.setUpEmail()
-                              }
-                            }
-                          },
-                          [_vm._v("Send")]
-                        )
-                      : _vm._e()
-                  ])
-                : _c("span", {}, [
-                    _c("img", {
-                      staticClass: "mx-auto d-block",
-                      staticStyle: { width: "40px" },
-                      attrs: {
-                        src: "/images/preloader.gif",
-                        alt: "preloader",
-                        id: "preloader"
-                      }
-                    })
-                  ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 mt-2" }),
-            _vm._v(" "),
-            _vm._m(0)
-          ])
-        ]
-      )
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12 mt-4" }, [
-      _c("div", {
-        staticClass: "d-block mx-auto",
-        staticStyle: { width: "200px" },
-        attrs: { id: "paypal-button" }
-      })
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xs-10 col-md-8 col-lg-7 col-xl-6 d-block mx-auto mt-4 p-3 bg-white shadow"
+          },
+          [
+            _c("h3", { staticClass: "mt-2" }, [_vm._v("Get VMS source code")]),
+            _vm._v(" "),
+            _c(
+              "form",
+              {
+                attrs: {
+                  action: "https://www.paypal.com/cgi-bin/webscr",
+                  method: "post",
+                  target: "_top"
+                }
+              },
+              [
+                _c("input", {
+                  attrs: { type: "hidden", name: "cmd", value: "_s-xclick" }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    type: "hidden",
+                    name: "hosted_button_id",
+                    value: "8P4D5J5LPMV4E"
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    type: "image",
+                    src:
+                      "https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif",
+                    border: "0",
+                    name: "submit",
+                    alt: "PayPal - The safer, easier way to pay online!"
+                  }
+                }),
+                _vm._v(" "),
+                _c("img", {
+                  attrs: {
+                    alt: "",
+                    border: "0",
+                    src: "https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif",
+                    width: "1",
+                    height: "1"
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 mt-4" }, [
+              _c("div", {
+                staticClass: "d-block mx-auto",
+                staticStyle: { width: "200px" },
+                attrs: { id: "paypal-button" }
+              })
+            ])
+          ]
+        )
+      ])
     ])
   }
 ]

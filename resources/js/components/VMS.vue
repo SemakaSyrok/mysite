@@ -49,7 +49,7 @@
                             <a :href=" link " class="my-btn btn-order highlight-btn my-shadow ">TRY IT</a>
                         </div>
                         <div class="col-sm-12 col-md-6 my-3 d-flex justify-content-center">
-                            <a :href=" link " class="my-btn btn-order highlight-btn my-shadow ">SOURCE CODE</a>
+                            <a :href=" buy " class="my-btn btn-order highlight-btn my-shadow ">BUY SOURCE</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
     //ANIMATE WITH WATCH!!!!!!!!
     export default {
         name: "v-vms",
-        props: ['link'],
+        props: ['link', 'buy'],
         data() {
             return {
                 contact: '',

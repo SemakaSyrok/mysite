@@ -12,6 +12,16 @@ class SiteController extends Controller
         return view('welcome');
     }
 
+    public function pay()
+    {
+        return view('pay');
+    }
+
+    public function faq()
+    {
+        return view('faq');
+    }
+
     public function contact(Request $request)
     {
         $request->session()->flash('contact_message', Helper::getMessage($request->input('mess')));

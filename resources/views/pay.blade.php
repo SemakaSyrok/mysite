@@ -23,7 +23,7 @@
                     <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
                 </form>
             </div>
-            <a href="{{ route('vms-faq') }}" class="position-absolute text-center" style="bottom: 18px">No, I have some questions</a>
+            <a href="{{ route('faq') }}" class="position-absolute text-center" style="bottom: 18px">No, I have some questions</a>
         </div>
 
     </div>

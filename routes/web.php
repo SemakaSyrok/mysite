@@ -25,12 +25,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
 //Route::get('/vms/source', 'SiteController@source')->name('source');
 
-Route::get('/vms/pay', function () {
-    return view('pay');
-});
-Route::get('/vms/faq', function () {
-    return view('faq');
-});
+Route::get('/vms/pay', 'SiteController@pay')->name('pay');
+Route::get('/vms/faq', 'SiteController@faq')->name('faq');
 
 Route::get('/set-email', 'ApiController@setEmail')->name('set-email');
 Route::post('/message', 'StoreMessage')->name('message')->middleware(['ip']);

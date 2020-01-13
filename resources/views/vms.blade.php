@@ -7,7 +7,7 @@
 
 
 
-        <v-vms link="{{ route('contact', ['mess' => 1]) }}"
+        <v-vms link="{{ route('contact', ['mess' => 1]) }}" buy="{{ route('pay') }}"
         ></v-vms>
 
 
