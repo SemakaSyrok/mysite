@@ -1775,6 +1775,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
 //ANIMATE WITH WATCH!!!!!!!!
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "v-vms",
@@ -1876,6 +1882,131 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       return curSlide;
     }()
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pay.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pay.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Pay",
+  data: function data() {
+    return {
+      request: false,
+      buy: false,
+      email: '',
+      errorMessage: '',
+      error: false
+    };
+  },
+  methods: {
+    setUpEmail: function setUpEmail() {
+      var _this = this;
+
+      this.errorMessage = '';
+      this.request = true;
+      axios.get("/set-email?email=".concat(this.email)).then(function (res) {
+        _this.buy = true;
+        document.querySelector('#hidden-email').value = _this.email;
+
+        _this.render();
+      })["catch"](function (err) {
+        _this.errorMessage = 'Invalid email';
+      })["finally"](function () {
+        _this.request = false;
+      });
+    },
+    render: function render() {
+      paypal.Button.render({
+        env: 'sandbox',
+        payment: function payment(data, actions) {
+          return actions.request.post('/api/create-payment/', {
+            email: document.querySelector('#hidden-email').value
+          }).then(function (res) {
+            return res.id;
+          });
+        },
+        onAuthorize: function onAuthorize(data, actions) {
+          return actions.request.post('/api/execute-payment/', {
+            paymentID: data.paymentID,
+            payerID: data.payerID,
+            email: document.querySelector('#hidden-email').value
+          }).then(function (res) {
+            console.log(res);
+            alert('success!');
+          })["catch"](function (err) {
+            console.log('err');
+            console.log(err);
+          });
+        },
+        style: {
+          size: 'responsive',
+          color: 'gold',
+          shape: 'pill'
+        }
+      }, '#paypal-button');
+    }
+  },
+  computed: {}
 });
 
 /***/ }),
@@ -6337,7 +6468,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.block[data-v-000ea2fe]{\n    height: 100%;\n    width: 48px;\n    transition: .4s;\n    background: rgba(135, 134, 133, 0.15);\n}\n.block[data-v-000ea2fe]:hover{\n    transition: .4s;\n    background: rgba(135, 134, 133, 0.30);\n}\n.block:hover > img[data-v-000ea2fe]{\n    opacity: .8;\n    transition: .4s;\n}\n.block > img[data-v-000ea2fe] {\n    opacity: .7;\n    cursor: pointer;\n    transition: .4s;\n}\n#left-arrow[data-v-000ea2fe]{\n    left: 0;\n}\n#right-arrow[data-v-000ea2fe]{\n    right: 0;\n}\n.highlight-btn[data-v-000ea2fe]{\n    text-align: center;\n    min-width:270px;\n}\n@media only screen and (max-width: 720px) {\n.mar-top[data-v-000ea2fe]{\n        margin-top: 24px;\n}\n}\n.imageEnter[data-v-000ea2fe] {\n    transition: .5s;\n    opacity: 1;\n}\n.imageLeave[data-v-000ea2fe] {\n    opacity: 0;\n}\n\n\n", ""]);
+exports.push([module.i, "\n.block[data-v-000ea2fe]{\n    height: 100%;\n    width: 48px;\n    transition: .4s;\n    background: rgba(135, 134, 133, 0.15);\n}\n.block[data-v-000ea2fe]:hover{\n    transition: .4s;\n    background: rgba(135, 134, 133, 0.30);\n}\n.block:hover > img[data-v-000ea2fe]{\n    opacity: .8;\n    transition: .4s;\n}\n.block > img[data-v-000ea2fe] {\n    opacity: .7;\n    cursor: pointer;\n    transition: .4s;\n}\n#left-arrow[data-v-000ea2fe]{\n    left: 0;\n}\n#right-arrow[data-v-000ea2fe]{\n    right: 0;\n}\n.highlight-btn[data-v-000ea2fe]{\n    text-align: center;\n    min-width: 285px;\n}\n@media only screen and (max-width: 720px) {\n.mar-top[data-v-000ea2fe]{\n        margin-top: 24px;\n}\n}\n.imageEnter[data-v-000ea2fe] {\n    transition: .5s;\n    opacity: 1;\n}\n.imageLeave[data-v-000ea2fe] {\n    opacity: 0;\n}\n\n\n", ""]);
 
 // exports
 
@@ -38627,19 +38758,46 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "contact " }, [
-      _c("div", { staticClass: "my-4 p-4", attrs: { id: "second-block" } }, [
+      _c("div", { staticClass: "my-1 p-2", attrs: { id: "second-block" } }, [
         _c("div", { staticClass: "mx-auto" }, [
           _c(
             "div",
-            { staticClass: "col-4 mx-auto d-flex justify-content-center" },
+            { staticClass: "row mx-auto d-flex justify-content-center" },
             [
               _c(
-                "a",
+                "div",
                 {
-                  staticClass: "my-btn btn-order highlight-btn my-shadow",
-                  attrs: { href: _vm.link }
+                  staticClass:
+                    "col-sm-12 col-md-6 my-3 d-flex justify-content-center"
                 },
-                [_vm._v("TRY IT")]
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "my-btn btn-order highlight-btn my-shadow ",
+                      attrs: { href: _vm.link }
+                    },
+                    [_vm._v("TRY IT")]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-sm-12 col-md-6 my-3 d-flex justify-content-center"
+                },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "my-btn btn-order highlight-btn my-shadow ",
+                      attrs: { href: _vm.link }
+                    },
+                    [_vm._v("SOURCE CODE")]
+                  )
+                ]
               )
             ]
           )
@@ -38665,6 +38823,139 @@ var staticRenderFns = [
         _c("strong", [_vm._v("your")]),
         _vm._v(" app.\n        ")
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-xs-10 col-md-8 col-lg-7 col-xl-6 d-block mx-auto mt-4 p-3 bg-white shadow"
+        },
+        [
+          _c("h3", { staticClass: "mt-2" }, [_vm._v("Get VMS source code")]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Type email on witch i will send link to download the source"
+            )
+          ]),
+          _vm._v(" "),
+          _c("label", { staticClass: "text-muted", attrs: { for: "email" } }, [
+            _vm._v("Email")
+          ]),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.email,
+                expression: "email"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { type: "email", name: "email", id: "email" },
+            domProps: { value: _vm.email },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.email = $event.target.value
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("input", {
+            attrs: { type: "email", id: "hidden-email", hidden: "" }
+          }),
+          _vm._v(" "),
+          _vm.errorMessage
+            ? _c("span", { staticClass: "text-danger mt-1" }, [
+                _vm._v(_vm._s(_vm.errorMessage))
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c("div", { staticClass: "row " }, [
+            _c("div", { staticClass: "col-12 mt-3" }, [
+              !_vm.request
+                ? _c("span", [
+                    !_vm.buy
+                      ? _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-outline-success  mx-auto",
+                            staticStyle: { display: "block" },
+                            attrs: { id: "sendBTN" },
+                            on: {
+                              click: function($event) {
+                                return _vm.setUpEmail()
+                              }
+                            }
+                          },
+                          [_vm._v("Send")]
+                        )
+                      : _vm._e()
+                  ])
+                : _c("span", {}, [
+                    _c("img", {
+                      staticClass: "mx-auto d-block",
+                      staticStyle: { width: "40px" },
+                      attrs: {
+                        src: "/images/preloader.gif",
+                        alt: "preloader",
+                        id: "preloader"
+                      }
+                    })
+                  ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 mt-2" }),
+            _vm._v(" "),
+            _vm._m(0)
+          ])
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 mt-4" }, [
+      _c("div", {
+        staticClass: "d-block mx-auto",
+        staticStyle: { width: "200px" },
+        attrs: { id: "paypal-button" }
+      })
     ])
   }
 ]
@@ -50836,6 +51127,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('v-vms', __webpack_require__(/*! ./components/VMS.vue */ "./resources/js/components/VMS.vue")["default"]);
+Vue.component('Pay', __webpack_require__(/*! ./components/pay.vue */ "./resources/js/components/pay.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -50993,6 +51285,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/pay.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/components/pay.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pay.vue?vue&type=template&id=f8d9c6a6&scoped=true& */ "./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true&");
+/* harmony import */ var _pay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pay.vue?vue&type=script&lang=js& */ "./resources/js/components/pay.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _pay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "f8d9c6a6",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pay.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pay.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/pay.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_pay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./pay.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pay.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_pay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./pay.vue?vue&type=template&id=f8d9c6a6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pay.vue?vue&type=template&id=f8d9c6a6&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_pay_vue_vue_type_template_id_f8d9c6a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -51011,8 +51372,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Program Files\OSPanel\domains\mysite\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Program Files\OSPanel\domains\mysite\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

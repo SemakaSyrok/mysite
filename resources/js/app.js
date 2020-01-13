@@ -20,6 +20,7 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('v-vms', require('./components/VMS.vue').default);
+Vue.component('Pay', require('./components/pay.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

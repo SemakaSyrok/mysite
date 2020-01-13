@@ -63,7 +63,7 @@
     <div id="second-block" class="mb-3 p-4">
         <div class="mx-auto">
             <div class="col-4 mx-auto d-flex justify-content-center">
-                <a href="{{ route('contact')  }}" class="my-btn btn-order highlight-btn my-shadow">Contact</a>
+                <a href="{{ route('contact')  }}" class="my-btn btn-order highlight-btn my-shadow" style="padding: 8px 40px 8px 40pxwe">Contact</a>
             </div>
         </div>
     </div>

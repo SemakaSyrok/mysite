@@ -42,14 +42,20 @@
         </div>
 
         <div class="contact ">
-            <div id="second-block" class="my-4 p-4">
+            <div id="second-block" class="my-1 p-2">
                 <div class="mx-auto">
-                    <div class="col-4 mx-auto d-flex justify-content-center">
-                        <a :href=" link " class="my-btn btn-order highlight-btn my-shadow">TRY IT</a>
+                    <div class="row mx-auto d-flex justify-content-center">
+                        <div class="col-sm-12 col-md-6 my-3 d-flex justify-content-center">
+                            <a :href=" link " class="my-btn btn-order highlight-btn my-shadow ">TRY IT</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 my-3 d-flex justify-content-center">
+                            <a :href=" link " class="my-btn btn-order highlight-btn my-shadow ">SOURCE CODE</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
 
 
@@ -137,7 +143,7 @@
     }
     .highlight-btn{
         text-align: center;
-        min-width:270px;
+        min-width: 285px;
     }
 
     @media only screen and (max-width: 720px) {

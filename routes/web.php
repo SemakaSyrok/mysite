@@ -23,15 +23,16 @@ Route::get('/skills', 'SiteController@skills')->name('skills');
 Route::get('/projects', 'SiteController@projects')->name('projects');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
+//Route::get('/vms/source', 'SiteController@source')->name('source');
 
-//Route::get('/mail', function() {
-//    return view('mail.dino', [
-//        'name' => "Simon"
-//    ]);
-//});
+Route::get('pay', function () {
+    return view('pay');
+});
 
-Route::post('/message', 'StoreMessage')->name('message');
-Route::group(['prefix' => 'admin'], function () {
+Route::get('/set-email', 'ApiController@setEmail')->name('set-email');
+Route::post('/message', 'StoreMessage')->name('message')->middleware(['ip']);
+
+Route::group(['prefix' => 'admin', ], function () {
 
     Voyager::routes();
 

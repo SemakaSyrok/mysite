@@ -13,6 +13,12 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::post('create-payment', 'ApiController@create');
+
+Route::post('execute-payment', 'ApiController@execute');
+
+
+
 
 
 
