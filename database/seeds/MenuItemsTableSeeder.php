@@ -301,8 +301,8 @@ class MenuItemsTableSeeder extends Seeder
                 'parent_id' => NULL,
                 'order' => 1,
                 'created_at' => '2020-01-08 06:13:14',
-                'updated_at' => '2020-01-08 06:14:35',
-                'route' => 'voyager.bad-ips.index',
+                'updated_at' => '2020-01-13 16:11:13',
+                'route' => 'voyager.badips.index',
                 'parameters' => 'null',
             ),
         ));
