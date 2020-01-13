@@ -10,7 +10,7 @@ class VoyagerDatabaseSeeder extends Seeder
     protected $seedersPath = __DIR__.'/';
 
     /**
-     * Run the database seeds.
+     * Run it to renew in production
      *
      * @return void
      */
@@ -20,9 +20,9 @@ class VoyagerDatabaseSeeder extends Seeder
         $this->seed('DataRowsTableSeeder');
         $this->seed('MenusTableSeeder');
         $this->seed('MenuItemsTableSeeder');
-        $this->seed('RolesTableSeeder');
+//        $this->seed('RolesTableSeeder');
         $this->seed('PermissionsTableSeeder');
-        $this->seed('PermissionRoleTableSeeder');
+//        $this->seed('PermissionRoleTableSeeder');
         $this->seed('SettingsTableSeeder');
     }
 }
