@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 use App\Frontend\Helper;
 
 
-
 Route::get('/', 'SiteController@index')->name('main');
 Route::get('/contact', 'SiteController@contact')->name('contact');
 Route::get('/skills', 'SiteController@skills')->name('skills');

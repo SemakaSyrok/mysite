@@ -49,7 +49,7 @@
                             <a :href=" link " class="my-btn btn-order highlight-btn my-shadow ">TRY IT</a>
                         </div>
                         <div class="col-sm-12 col-md-6 my-3 d-flex justify-content-center">
-                            <a :href=" buy " class="my-btn btn-order highlight-btn my-shadow ">BUY SOURCE</a>
+                            <a :href=" buy " class="my-btn btn-order highlight-btn my-shadow ">SOURCE CODE</a>
                         </div>
                     </div>
                 </div>

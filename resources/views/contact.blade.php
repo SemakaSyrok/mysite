@@ -58,6 +58,20 @@
                             @enderror
                         </div>
 
+                        <div class="form-group ">
+                            <label for="captcha">Captcha</label>
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <div class=" d-block mx-auto">
+                                    {!! captcha_img() !!}
+                                </div>
+                                <input id="captcha" name="captcha" type="text"
+                                       class="form-control col-7 @error('captcha') is-invalid @enderror"
+                                >
+                            </div>
+
+
+                        </div>
+
                         <div class="form-group  d-flex justify-content-center">
                             <button  class="btn btn-lg btn-outline-primary">Send</button>
                         </div>
@@ -68,6 +82,6 @@
         </div>
     @endif
 
-    
+
 
 @endsection

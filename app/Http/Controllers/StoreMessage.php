@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
 class StoreMessage extends Controller
@@ -20,7 +21,8 @@ class StoreMessage extends Controller
         $validator =  Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'email|required',
-            'message' => 'max:30000|required'
+            'message' => 'max:30000|required',
+            'captcha' => 'required|captcha'
         ]);
 
         if ($validator->fails()) {
@@ -35,6 +37,11 @@ class StoreMessage extends Controller
         $message->message = $request->input('message');
         $message->ip = $request->ip();
         $message->save();
+
+        Mail::send('mail.message',[], function ($message)  {
+            $message->to('semakasyrok1@gmail.com', 'To Simon')->subject('New message');
+            $message->from('info@simon-svirkov.com', 'From Simon Svirkov');
+        });
 
         return redirect('contact')->with('submited', true);
     }

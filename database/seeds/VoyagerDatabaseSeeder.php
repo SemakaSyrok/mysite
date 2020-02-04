@@ -21,7 +21,8 @@ class VoyagerDatabaseSeeder extends Seeder
         $this->seed('MenusTableSeeder');
         $this->seed('MenuItemsTableSeeder');
 //        $this->seed('RolesTableSeeder');
-        $this->seed('PermissionsTableSeeder');
+//        $this->seed('PermissionsTableSeeder');
+        // ADD NEW PERMISSIONS!!!
 //        $this->seed('PermissionRoleTableSeeder');
         $this->seed('SettingsTableSeeder');
     }

@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Collective\Html\Eloquent\FormAccessible;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -9,7 +10,6 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends \TCG\Voyager\Models\User
 {
     use Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *
@@ -18,6 +18,8 @@ class User extends \TCG\Voyager\Models\User
     protected $fillable = [
         'name', 'email', 'password',
     ];
+
+
 
     /**
      * The attributes that should be hidden for arrays.

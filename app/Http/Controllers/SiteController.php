@@ -24,7 +24,7 @@ class SiteController extends Controller
 
     public function contact(Request $request)
     {
-        $request->session()->flash('contact_message', Helper::getMessage($request->input('mess')));
+        $request->session()->flash('contact_message', Helper::getMessage($request->mess));
 
         return view('contact');
     }
