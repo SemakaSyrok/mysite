@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Mail/MessagesMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/captcha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/forms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/message.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/profile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/SendMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_13_172747_delete_unused_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_13_172747_delete_unused_tables1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/VoyagerDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/VoyagerDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/VMS.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,16 +168,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
+      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\domains\mysite\public\images" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager\poster-translations" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\public\images" />
       <recent name="C:\Program Files\OSPanel\domains\profile\public\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
-      <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ExampleTest.testBasicTest">
@@ -264,7 +241,8 @@
       <workItem from="1579785522036" duration="8996000" />
       <workItem from="1580467425056" duration="873000" />
       <workItem from="1580744592344" duration="18000" />
-      <workItem from="1580824821067" duration="6349000" />
+      <workItem from="1580824821067" duration="7989000" />
+      <workItem from="1580908850045" duration="643000" />
     </task>
     <servers />
   </component>
@@ -300,13 +278,13 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="294" y="28" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1579025130620" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1580824821014">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1580908871221">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1580824821014" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580827997703">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1580908871221" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580909994759">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1580827997703" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1580909994759" />
   </component>
 </project>
