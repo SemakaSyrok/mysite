@@ -18,12 +18,12 @@
             <h4 class="text-center pt-3">Buy Video Management System</h4>
             <div class="d-flex justify-content-center align-items-center pt-4">
 {{--                prod--}}
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="8P4D5J5LPMV4E">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
-                </form>
+{{--                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">--}}
+{{--                    <input type="hidden" name="cmd" value="_s-xclick">--}}
+{{--                    <input type="hidden" name="hosted_button_id" value="8P4D5J5LPMV4E">--}}
+{{--                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">--}}
+{{--                    <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">--}}
+{{--                </form>--}}
 {{--                test--}}
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
