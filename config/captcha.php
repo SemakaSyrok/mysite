@@ -7,15 +7,16 @@ return [
         'width' => 170,
         'height' => 42,
         'quality' => 80,
-        'math' => false,
+        'math' => true,
         'blur' => 1,
         'invert' => true
     ],
     'math' => [
         'length' => 9,
-        'width' => 120,
-        'height' => 36,
+        'width' => 170,
+        'height' => 42,
         'quality' => 90,
+        'blur' => 1,
         'math' => true,
     ],
 

@@ -62,7 +62,7 @@
                             <label for="captcha">Captcha</label>
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div class=" d-block mx-auto">
-                                    {!! captcha_img('inverse') !!}
+                                    {!! captcha_img('math') !!}
                                 </div>
                                 <input id="captcha" name="captcha" type="text"
                                        class="form-control col-7 @error('captcha') is-invalid @enderror"

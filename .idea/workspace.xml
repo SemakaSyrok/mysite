@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/captcha.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,6 +249,7 @@
       <workItem from="1580744592344" duration="18000" />
       <workItem from="1580824821067" duration="7989000" />
       <workItem from="1580908850045" duration="5429000" />
+      <workItem from="1581007445703" duration="728000" />
     </task>
     <servers />
   </component>
