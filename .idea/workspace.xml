@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/qwe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/captcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -158,6 +162,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -242,7 +247,7 @@
       <workItem from="1580467425056" duration="873000" />
       <workItem from="1580744592344" duration="18000" />
       <workItem from="1580824821067" duration="7989000" />
-      <workItem from="1580908850045" duration="1434000" />
+      <workItem from="1580908850045" duration="5429000" />
     </task>
     <servers />
   </component>
@@ -278,13 +283,13 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="294" y="28" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1579025130620" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1580908871221">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1581007540165">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1580908871221" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580909994759">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581007540165" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580919787890">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1580909994759" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1580919787890" />
   </component>
 </project>
