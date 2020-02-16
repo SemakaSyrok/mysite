@@ -37,8 +37,8 @@ class UpdateDatabese extends Command
      */
     public function handle()
     {
+        $this->call('db:seed',['--class' => 'DatabaseSeeder']);
         $permissions = require database_path('permissions/permissions.php');
-
 
         foreach ($permissions as $permission)
         {
