@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\NewBadIp;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -25,4 +27,25 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function readNotifications()
+    {
+        if(!Auth::user()->unreadNotifications)
+            return back();
+
+        foreach (Auth::user()->unreadNotifications as $notification)
+        {
+            $notification->markAsRead();
+        }
+
+        return back();
+    }
+
+    public function MakeNotification()
+    {
+        Auth::user()->notify(new NewBadIp(rand(0,10000) ));
+
+        return back();
+    }
+
 }

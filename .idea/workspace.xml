@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/qwe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/PrepareForProduction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/UpdateDatabese.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Custom/NotificationPrepare.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/MessageIncome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/NewBadIp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Observers/MessageObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_13_122230_create_notifications_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/permissions/permissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/permissions/permissions1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminDataRowsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminDataTypesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminMenuItemsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminMenusTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminPermissionSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminPermissionsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminSettingsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminTranslationsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sections/notify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/dashboard/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/dashboard/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BadIp.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/BadIp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/captcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Widgets/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Widgets/Messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/voyager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/voyager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/voyager/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +199,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/vendor/voyager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -175,15 +207,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OSPanel\domains\mysite\database\permissions" />
+      <recent name="C:\Program Files\OSPanel\domains\mysite\database\seeds" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\app\Http" />
       <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OSPanel\domains\mysite\resources\views\vendor\voyager" />
       <recent name="W:\domains\mysite\public\images" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager\poster-translations" />
       <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\public\images" />
-      <recent name="C:\Program Files\OSPanel\domains\profile\public\images" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ExampleTest.testBasicTest">
@@ -249,7 +283,11 @@
       <workItem from="1580744592344" duration="18000" />
       <workItem from="1580824821067" duration="7989000" />
       <workItem from="1580908850045" duration="5429000" />
-      <workItem from="1581007445703" duration="728000" />
+      <workItem from="1581007445703" duration="1071000" />
+      <workItem from="1581590578451" duration="8299000" />
+      <workItem from="1581736093812" duration="7119000" />
+      <workItem from="1581754524920" duration="3855000" />
+      <workItem from="1581827477770" duration="12566000" />
     </task>
     <servers />
   </component>
@@ -277,21 +315,29 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="635" y="357" key="NewPhpFileDialog" timestamp="1578929947306">
+    <state x="530" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581749081249">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="635" y="357" key="NewPhpFileDialog/62.0.1474.864@62.0.1474.864" timestamp="1578929947306" />
+    <state x="530" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.1474.864@62.0.1474.864" timestamp="1581749081249" />
+    <state x="562" y="248" key="NewPhpClassDialog" timestamp="1581600772769">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="562" y="248" key="NewPhpClassDialog/62.0.1474.864@62.0.1474.864" timestamp="1581600772769" />
+    <state x="635" y="357" key="NewPhpFileDialog" timestamp="1581844584435">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="635" y="357" key="NewPhpFileDialog/62.0.1474.864@62.0.1474.864" timestamp="1581844584435" />
     <state x="294" y="28" key="SettingsEditor" timestamp="1579025130620">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="294" y="28" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1579025130620" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1581007540165">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1581827520682">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581007540165" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580919787890">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581827520682" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581748766818">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1580919787890" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1581748766818" />
   </component>
 </project>

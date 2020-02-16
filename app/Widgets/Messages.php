@@ -33,7 +33,7 @@ class Messages extends BaseDimmer
             'text'   => __('Messages', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
                 'text' => __('Messages'),
-                'link' => route('main'),
+                'link' => route('voyager.messages.index'),
             ],
             'image' => voyager_asset('images/widget-backgrounds/01.jpg'),
         ]));

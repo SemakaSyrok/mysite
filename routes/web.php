@@ -35,7 +35,10 @@ Route::group(['prefix' => 'admin', ], function () {
     Voyager::routes();
 
     Route::get('/group-of-clients/send-mails/{id}', 'MailController@sendGroups')
-        ->name('voyager.group-of-clients.send-mails');
+        ->name('voyager.group-of-clients.send-mails')->middleware(['auth']);
+
+    Route::get('/read-notifications', 'HomeController@readNotifications')
+        ->name('read-notifications')->middleware(['auth']);
 
 });
 

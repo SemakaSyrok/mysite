@@ -68,8 +68,13 @@
                                        class="form-control col-7 @error('captcha') is-invalid @enderror"
                                 >
                             </div>
+                        </div>
 
-
+                        <div class="form-group d-none">
+                            <label for="phone">Phone</label>
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <input id="phone" name="phone" type="text">
+                            </div>
                         </div>
 
                         <div class="form-group  d-flex justify-content-center">
