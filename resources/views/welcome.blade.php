@@ -50,8 +50,8 @@
         </h4>
 
         <h4 class="px-5 pt-3 text-center">
-            We will advice you in what you needs, how it coasts, is it difficult and we will get unswer on
-            all your  questions
+            We will advice you in what you needs, how it coasts, is it difficult and we will get answers on
+            all your questions
         </h4>
 
 

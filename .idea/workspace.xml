@@ -40,10 +40,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +277,7 @@
       <workItem from="1581754524920" duration="3855000" />
       <workItem from="1581827477770" duration="15472000" />
       <workItem from="1590464405533" duration="15943000" />
-      <workItem from="1590543135685" duration="22429000" />
+      <workItem from="1590543135685" duration="23199000" />
     </task>
     <servers />
   </component>

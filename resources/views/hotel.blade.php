@@ -153,7 +153,7 @@
                     </div>
                     <div class="col-sm-12 col-md-5 px-4 py-2">
                         <h5>
-                            Nothing unexpectedly
+                            All under your controll
                         </h5>
                     </div>
                 </div>
