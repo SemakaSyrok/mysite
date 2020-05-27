@@ -8,8 +8,8 @@
             <svg style="height: 85%; max-height: 550px;width:100%" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" style="stop-color:rgb(0,53,196);stop-opacity:1" />
-                        <stop offset="100%" style="stop-color:rgb(0,91,255);stop-opacity:1" />
+                        <stop offset="0%" style="stop-color:rgb(0,55,255);stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:rgb(27,83,255);stop-opacity:1" />
                     </linearGradient>
                 </defs>
                 <polygon id="triangle" points="0,0 100,0 100,95 0,75" fill="url(#grad1)" style="" />

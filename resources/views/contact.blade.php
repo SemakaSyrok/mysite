@@ -4,9 +4,9 @@
 
 
     @if(\Illuminate\Support\Facades\Session::has('submited'))
-        <div class="container  p-1">
+        <div class="container-fluid  p-1" style="background:url({{ asset('/images/bg.jpg') }});min-height:100vh;  background-size: cover ">
             <div class="row justify-content-center ">
-                <div class="col-sm-12 p-4 col-md-8">
+                <div class="col-sm-12 p-4 mt-5 col-md-8 bg-white">
                     <h5>Message sent! </h5>
                     <h6>You will get unswer from the <strong>info@simon-svirkov.com</strong></h6>
                     <a href="/" class="text-center">Return to main</a>
@@ -49,8 +49,7 @@
                             <textarea id="message" name="message" rows="4" type="text"
                                       class="form-control"
                                       value="{{ old('message')  }}"
-                            >{{session('contact_message') ? session('contact_message') : old('message') }}
-                            </textarea>
+                            >{{session('contact_message') ? session('contact_message') : old('message') }}</textarea>
                             @error('message')
                             <small class="text-danger">
                                 {{ $message  }}
