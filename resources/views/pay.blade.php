@@ -9,7 +9,7 @@
 
 @section('content')
 
-    <div class="container mt-5 pt-5">
+    <div class="container mt-5 pt-5" style="min-height: 100vh">
 
         <div class="bg-white mt-3 col-sm-10 col-md-8 col-lg-6 col-xl-6 shadow p-3 d-block mx-auto position-relative "
             style="min-height: 280px"

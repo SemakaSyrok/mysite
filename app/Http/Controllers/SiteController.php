@@ -44,5 +44,10 @@ class SiteController extends Controller
         return view('vms');
     }
 
+    public function hotel()
+    {
+        return view('hotel');
+    }
+
 
 }

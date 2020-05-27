@@ -22,6 +22,7 @@ Route::get('/skills', 'SiteController@skills')->name('skills');
 Route::get('/projects', 'SiteController@projects')->name('projects');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vms', 'SiteController@vms')->name('vms');
+Route::get('/hotel', 'SiteController@hotel')->name('hotel');
 //Route::get('/vms/source', 'SiteController@source')->name('source');
 
 Route::get('/vms/pay', 'SiteController@pay')->name('pay');

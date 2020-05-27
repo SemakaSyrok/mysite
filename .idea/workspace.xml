@@ -1,9 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:composer" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:composer" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:symfony" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba25a692-99fb-4297-bbd3-5381b27644c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/default-skin/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/default-skin/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/default-skin/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/default-skin/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/photoswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/photoswipe-ui-default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/photoswipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/photoswipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hotel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/UpdateDatabese.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/UpdateDatabese.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Frontend/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Frontend/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/SendMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/VMS.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/VMS.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/site-css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/site-css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pay.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/qwe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skills.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skills.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vms.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +81,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,9 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -154,16 +222,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/vendor/voyager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -177,11 +246,11 @@
       <recent name="C:\Program Files\OSPanel\domains\profile\app\Http\Controllers\Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OSPanel\domains\mysite\public\js" />
+      <recent name="C:\Program Files\OSPanel\domains\mysite\public\css" />
+      <recent name="C:\Program Files\OSPanel\domains\mysite\public\images" />
       <recent name="C:\Program Files\OSPanel\domains\mysite\resources\views\vendor\voyager" />
       <recent name="W:\domains\mysite\public\images" />
-      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager" />
-      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\resources\views\vendor\voyager\poster-translations" />
-      <recent name="C:\Users\Семен\Desktop\open_server_5_3_0_premium\OSPanel\domains\mysite\public\images" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ExampleTest.testBasicTest">
@@ -198,18 +267,6 @@
         <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -251,12 +308,14 @@
       <workItem from="1581590578451" duration="8299000" />
       <workItem from="1581736093812" duration="7119000" />
       <workItem from="1581754524920" duration="3855000" />
-      <workItem from="1581827477770" duration="13579000" />
+      <workItem from="1581827477770" duration="15472000" />
+      <workItem from="1590464405533" duration="15943000" />
+      <workItem from="1590543135685" duration="21345000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
@@ -267,41 +326,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581749081249">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590577410626">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="530" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.1474.864@62.0.1474.864" timestamp="1581749081249" />
-    <state x="562" y="248" key="NewPhpClassDialog" timestamp="1581600772769">
-      <screen x="62" y="0" width="1474" height="864" />
-    </state>
-    <state x="562" y="248" key="NewPhpClassDialog/62.0.1474.864@62.0.1474.864" timestamp="1581600772769" />
-    <state x="635" y="357" key="NewPhpFileDialog" timestamp="1581844584435">
-      <screen x="62" y="0" width="1474" height="864" />
-    </state>
-    <state x="635" y="357" key="NewPhpFileDialog/62.0.1474.864@62.0.1474.864" timestamp="1581844584435" />
-    <state x="294" y="28" key="SettingsEditor" timestamp="1579025130620">
-      <screen x="62" y="0" width="1474" height="864" />
-    </state>
-    <state x="294" y="28" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1579025130620" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1581827520682">
-      <screen x="62" y="0" width="1474" height="864" />
-    </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581827520682" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581748766818">
-      <screen x="62" y="0" width="1474" height="864" />
-    </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1581748766818" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1590577410626" />
   </component>
 </project>

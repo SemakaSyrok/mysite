@@ -4,7 +4,7 @@
 
 
     @if(\Illuminate\Support\Facades\Session::has('submited'))
-        <div class="container mt-2 p-1">
+        <div class="container  p-1">
             <div class="row justify-content-center ">
                 <div class="col-sm-12 p-4 col-md-8">
                     <h5>Message sent! </h5>
@@ -14,9 +14,9 @@
             </div>
         </div>
     @else
-        <div class="container">
-            <div class="row justify-content-center mt-4 p-1 align-items-center" style="min-height: 70vh">
-                <div class="form col-sm-10 col-md-6 p-4 mt-3  shadow-lg bg-white">
+        <div class="container-fluid" style="background:url({{ asset('/images/bg.jpg') }});min-height:100vh;  background-size: cover ">
+            <div class="row justify-content-center  p-1 align-items-center" style="min-height: 95vh">
+                <div class="form col-sm-10 col-md-6 p-4 mt-5  shadow-lg bg-white">
                     <form action="{{ route('message') }}" method="POST">
 
                         @csrf
@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="form-group  d-flex justify-content-center">
-                            <button  class="btn btn-lg btn-outline-primary">Send</button>
+                            <button  class="btn btn-lg btn-outline-secondary">Send</button>
                         </div>
 
                     </form>

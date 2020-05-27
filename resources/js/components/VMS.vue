@@ -1,7 +1,7 @@
 <template>
     <div >
 
-        <h1>Video Managment System</h1>
+        <h1>Video Management System</h1>
 
         <div class="text py-3">
             <p>
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-    //ANIMATE WITH WATCH!!!!!!!!
+
     export default {
         name: "v-vms",
         props: ['link', 'buy'],
